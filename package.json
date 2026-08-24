@@ -1,0 +1,13 @@
+{
+  "name": "ytpost-dl",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Save media from public YouTube Community Posts.",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  }
+}

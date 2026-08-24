@@ -1,0 +1,21 @@
+{
+  "framework": null,
+  "functions": {
+    "api/preview.js": {
+      "maxDuration": 30,
+      "memory": 1024
+    },
+    "api/download.js": {
+      "maxDuration": 30,
+      "memory": 1024
+    }
+  },
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "private, no-store" }
+      ]
+    }
+  ]
+}
